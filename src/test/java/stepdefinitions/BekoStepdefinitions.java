@@ -23,6 +23,8 @@ public class BekoStepdefinitions {
     public void cerezlerKabulEdilmez() {
         ReusableMethods.bekle(2);
         bekoPage.cerezleriKabulEtme.click();
+
+
     }
     @Then("Kullanıcı avrupa kıtasını secer ve turkıye ulkesını secer")
     public void kullanıcı_avrupa_kıtasını_secer_ve_turkıye_ulkesını_secer() {
